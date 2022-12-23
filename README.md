@@ -1,6 +1,6 @@
 # D-NeRF_details_code_analysis
 D-NeRF code analysis
-My blog: https://kyujinpy.tistory.com/  
+My blog: https://kyujinpy.tistory.com/26  
 
 ------------   
 D-NeRF code almost same the NeRF.  
