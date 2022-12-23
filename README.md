@@ -42,7 +42,7 @@ If using hellwarrior data, you just move file in data folder..!!
 ~~Currently, this code cannot use the pre-trained model.~~
 ~~Because I changed some class name.~~
 
-So, if you want to use pre-trained model in 'D-NeRF implementaion.ipynb', you change class name same like D-NeRF  
+So, if you want to use pre-trained model in 'D-NeRF implementaion.ipynb', you change class name same like D-NeRF github.  
 ```
 First,  
 class Canonical_NeRF -> NeRFOriginal  
@@ -56,9 +56,9 @@ Third,
 This code, Canonical_NeRF class forward() function's argument is (self, x)
 You must change the Canonical_NeRF input (self, x, t)
 ```  
-
-Or, you just use 'D-NeRF not_change_version.ipynb', you can use pretrain-weights!
-There are some visualization methods.
+  
+Or, you just use 'D-NeRF not_change_version.ipynb', you can use pretrain-weights!  
+There are some visualization methods.  
 
 ------------
 # Other thing   
