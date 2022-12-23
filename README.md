@@ -22,7 +22,7 @@ I wrote the many many comment, because of understanding.
 
 ------------
 # Dataset  
-![Dataset](https://www.dropbox.com/s/0bf6fl0ye2vz3vr/data.zip?dl=0)
+[D-NeRF dataset](https://www.mdpi.com/2073-8994/14/12/2657)
 In D-NeRF, there are pre-trained model and datasets.
 
 This code can be use these dataset.  
@@ -35,3 +35,19 @@ Currently, this code cannot use the pre-trained model.
 Because I changed some class name.
 
 So, if you want to use pre-trained model, you change class name same like D-NeRF  
+```
+First,  
+Canonical_NeRF -> NeRFOriginal  
+
+Second,  
+self._deformation_layers, self._deformation_out_layer -> self._time, self._time_out  
+
+Third,
+This code, Canonical_NeRF class forward() function's argument is (self, x)
+You must change the Canonical_NeRF input (self, x, t)
+```  
+
+------------
+# Other thing   
+Any other question, you visit my blog and I will reply if you comment.  
+Thank you..!  
