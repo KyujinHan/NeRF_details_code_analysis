@@ -17,6 +17,14 @@ NeRF github: https://github.com/yenchenlin/nerf-pytorch
 D-NeRF github: https://github.com/albertpumarola/D-NeRF  
 
 ------------  
+# CODE
+```
+1. You just use the 'D-NeRF implementation.ipynb' file.
+
+2. You use 'D_NeRF.py'  
+> In this case, the code consists of 3 python scripts.  
+```
+
 This code very details about code analysis.  
 I wrote the many many comment, because of understanding.  
 
