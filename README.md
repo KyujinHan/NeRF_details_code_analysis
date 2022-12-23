@@ -9,8 +9,9 @@ So, if you understand the D-NeRF code, you must understand NeRF code..!!!
 
 ------------  
 # Github reference  
-NeRF github: https://github.com/yenchenlin/nerf-pytorch  
-(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdeF4Z1%2FbtrUnYtvDFF%2FNkTX26LO6zjvMiAv8k5qe0%2Fimg.png)
+NeRF github: https://github.com/yenchenlin/nerf-pytorch 
+![NeRF](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdeF4Z1%2FbtrUnYtvDFF%2FNkTX26LO6zjvMiAv8k5qe0%2Fimg.png)  
+
 D-NeRF github: https://github.com/albertpumarola/D-NeRF  
 
 ------------  
