@@ -42,7 +42,7 @@ If using hellwarrior data, you just move file in data folder..!!
 ~~Currently, this code cannot use the pre-trained model.~~  
 ~~Because I changed some class name.~~  
   
-So, if you want to use pre-trained model in 'D-NeRF implementaion.ipynb', you change class name same like D-NeRF github.    
+If you want to use pre-trained model in 'D-NeRF implementaion.ipynb', you change class name same like D-NeRF github.    
 ```
 First,  
 class Canonical_NeRF -> NeRFOriginal  
