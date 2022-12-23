@@ -45,10 +45,12 @@ Because I changed some class name.
 So, if you want to use pre-trained model, you change class name same like D-NeRF  
 ```
 First,  
-Canonical_NeRF -> NeRFOriginal  
+class Canonical_NeRF -> NeRFOriginal  
+class D_NeRF -> DirectTemporalNeRF  
 
 Second,  
 self._deformation_layers, self._deformation_out_layer -> self._time, self._time_out  
+self._ca_nerf -> self._occ  
 
 Third,
 This code, Canonical_NeRF class forward() function's argument is (self, x)
