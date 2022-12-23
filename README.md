@@ -19,7 +19,7 @@ D-NeRF github: https://github.com/albertpumarola/D-NeRF
 ------------  
 # CODE
 ```
-1. You just use the 'D-NeRF implementation.ipynb' file.
+1. You just use the 'D-NeRF implementation.ipynb' or 'D-NeRF not_change_version.ipynb' file.
 
 2. You use 'D_NeRF.py'  
 > In this case, the code consists of 3 python scripts.  
@@ -39,10 +39,10 @@ If using hellwarrior data, you just move file in data folder..!!
   
 ------------
 # Be careful  
-Currently, this code cannot use the pre-trained model.
-Because I changed some class name.
+~~Currently, this code cannot use the pre-trained model.~~
+~~Because I changed some class name.~~
 
-So, if you want to use pre-trained model, you change class name same like D-NeRF  
+So, if you want to use pre-trained model in 'D-NeRF implementaion.ipynb', you change class name same like D-NeRF  
 ```
 First,  
 class Canonical_NeRF -> NeRFOriginal  
@@ -56,6 +56,9 @@ Third,
 This code, Canonical_NeRF class forward() function's argument is (self, x)
 You must change the Canonical_NeRF input (self, x, t)
 ```  
+
+Or, you just use 'D-NeRF not_change_version.ipynb', you can use pretrain-weights!
+There are some visualization methods.
 
 ------------
 # Other thing   
