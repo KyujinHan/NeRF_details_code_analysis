@@ -31,7 +31,7 @@ I wrote the many many comment, because of understanding.
 ------------
 # Dataset  
 [D-NeRF dataset](https://www.mdpi.com/2073-8994/14/12/2657)
-In D-NeRF, there are pre-trained model and datasets.
+In [D-NeRF](https://github.com/albertpumarola/D-NeRF  ), there are pre-trained model and datasets.
 
 This code can be use these dataset.  
 So you can download and implementation this.  
