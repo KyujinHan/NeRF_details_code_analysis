@@ -19,3 +19,19 @@ D-NeRF github: https://github.com/albertpumarola/D-NeRF
 ------------  
 This code very details about code analysis.  
 I wrote the many many comment, because of understanding.  
+
+------------
+# Dataset  
+![Dataset](https://www.dropbox.com/s/0bf6fl0ye2vz3vr/data.zip?dl=0)
+In D-NeRF, there are pre-trained model and datasets.
+
+This code can be use these dataset.  
+So you can download and implementation this.  
+If using hellwarrior data, you just move file in data folder..!!  
+  
+------------
+# Be careful  
+Currently, this code cannot use the pre-trained model.
+Because I changed some class name.
+
+So, if you want to use pre-trained model, you change class name same like D-NeRF  
