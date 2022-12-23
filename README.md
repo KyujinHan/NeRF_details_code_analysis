@@ -17,5 +17,5 @@ NeRF github: https://github.com/yenchenlin/nerf-pytorch
 D-NeRF github: https://github.com/albertpumarola/D-NeRF  
 
 ------------  
-This code very details about code analysis.
+This code very details about code analysis.  
 I wrote the many many comment, because of understanding.  
