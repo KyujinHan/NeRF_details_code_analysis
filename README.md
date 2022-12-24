@@ -58,7 +58,54 @@ You must change the Canonical_NeRF input (self, x, t)
 ```  
   
 Or, you just use 'D-NeRF not_change_version.ipynb', you can use pretrain-weights!  
-There are some visualization methods.  
+There are some visualization methods.   
+  
+------------
+# Video
+```
+# Sava in (basedir + expname + ...)
+torch.set_default_tensor_type('torch.cuda.FloatTensor')
+args.no_reload = False
+args.render_only = True
+args.render_test = False
+args.basedir = './logs'
+args.dataset_type = 'blender'
+
+for i in range(7):
+    
+    if i == 0:
+        args.config = './configs/bouncingballs.txt'
+        args.expname = 'bouncingballs'
+        args.datadir = './data/bouncingballs/'
+    
+    elif i == 1:
+        args.config = './configs/hellwarrior.txt'
+        args.expname = 'hellwarrior'
+        args.datadir = './data/hellwarrior/'
+    
+    elif i == 2:
+        args.config = './configs/hook.txt'
+        args.expname = 'hook'
+        args.datadir = './data/hook/'
+        
+    elif i == 3:
+        args.config = './configs/jumpingjacks.txt'
+        args.expname = 'jumpingjacks'
+        args.datadir = './data/jumpingjacks/'
+    
+    elif i == 4:
+        args.config = './configs/lego.txt'
+        args.expname = 'lego'
+        args.datadir = './data/lego/'
+        
+    elif i == 5:
+        args.config = './configs/mutant.txt'
+        args.expname = 'mutant'
+        args.datadir = './data/mutant/'
+    
+    train(args)
+```
+  
   
 ------------
 # Other thing   
