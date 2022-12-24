@@ -73,7 +73,7 @@ args.render_test = False
 args.basedir = './logs'
 args.dataset_type = 'blender'
 
-for i in range(7):
+for i in range(6):
     
     if i == 0:
         args.config = './configs/bouncingballs.txt'
