@@ -63,6 +63,8 @@ There are some visualization methods.
 ------------  
 # Video
 ```
+# Put the code in 'D-NeRF not_change_version.ipynb' last block.
+
 # Sava in (basedir + expname + ...)
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 args.no_reload = False
