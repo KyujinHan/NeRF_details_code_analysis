@@ -60,7 +60,7 @@ You must change the Canonical_NeRF input (self, x, t)
 Or, you just use 'D-NeRF not_change_version.ipynb', you can use pretrain-weights!  
 There are some visualization methods.   
   
-------------
+------------  
 # Video
 ```
 # Sava in (basedir + expname + ...)
@@ -104,14 +104,17 @@ for i in range(7):
         args.datadir = './data/mutant/'
     
     train(args)
-```
+```  
+  
+------------
+# My Result (Video)  
 ![video (1)](https://user-images.githubusercontent.com/98331298/209425314-8d8f1ec2-136f-4bf7-b469-369f3d86ae7d.gif)
 ![video (2)](https://user-images.githubusercontent.com/98331298/209425321-e915c651-9821-4ae1-bf81-518c3598ff88.gif)
 ![video (3)](https://user-images.githubusercontent.com/98331298/209425323-125dc4f7-08da-4b2e-a726-07c003a5e8f7.gif)
 ![video (4)](https://user-images.githubusercontent.com/98331298/209425326-45e35895-3c55-44f8-a2c4-2892dc60d2db.gif)
 ![video (5)](https://user-images.githubusercontent.com/98331298/209425328-2c1669d5-7ae3-483b-a1c1-84772bc310a7.gif)
 ![video](https://user-images.githubusercontent.com/98331298/209425330-cb8d8abf-9790-499b-a2cf-3cff802d99a9.gif)
-  
+    
 ------------
 # Other thing   
 Any other question, you visit my blog and I will reply if you comment.  
